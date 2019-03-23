@@ -1,0 +1,12 @@
+D:\OneDrive\Software Glossary\Projects\Server Projects\Fiddler\Fiddler\bin\Debug\Fiddler.exe.config
+D:\OneDrive\Software Glossary\Projects\Server Projects\Fiddler\Fiddler\bin\Debug\Fiddler.exe
+D:\OneDrive\Software Glossary\Projects\Server Projects\Fiddler\Fiddler\bin\Debug\Fiddler.pdb
+D:\OneDrive\Software Glossary\Projects\Server Projects\Fiddler\Fiddler\bin\Debug\FiddlerCore.dll
+D:\OneDrive\Software Glossary\Projects\Server Projects\Fiddler\Fiddler\bin\Debug\FiddlerCore.xml
+D:\OneDrive\Software Glossary\Projects\Server Projects\Fiddler\Fiddler\obj\Debug\Fiddler.exe
+D:\OneDrive\Software Glossary\Projects\Server Projects\Fiddler\Fiddler\obj\Debug\Fiddler.pdb
+D:\OneDrive\Software Glossary\Projects\Server Projects\Fiddler\Fiddler\obj\Debug\Fiddler.csprojResolveAssemblyReference.cache
+D:\OneDrive\Software Glossary\Projects\Server Projects\Fiddler\Fiddler\bin\Debug\Fiddler.exe.manifest
+D:\OneDrive\Software Glossary\Projects\Server Projects\Fiddler\Fiddler\bin\Debug\Fiddler.application
+D:\OneDrive\Software Glossary\Projects\Server Projects\Fiddler\Fiddler\obj\Debug\Fiddler.exe.manifest
+D:\OneDrive\Software Glossary\Projects\Server Projects\Fiddler\Fiddler\obj\Debug\Fiddler.application

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Fiddler.exe" version="1.0.0.0" publicKeyToken="6575365397464895" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Fiddler" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Fiddler.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fiddler.exe" size="8176">
+      <assemblyIdentity name="Fiddler" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wAtKy4ip0Bim4fx9Guyeas5Dg8FegRQORNbA1XM7Oao=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FiddlerCore.dll" size="435528">
+      <assemblyIdentity name="FiddlerCore" version="2.6.2.0" publicKeyToken="67CB91587178AC5A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vbi79ahH/YRco1wY3XjFFldWwpKyrcSqYMcb2PYmb/Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Fiddler.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-J9H971R\emeroglu" issuerKeyHash="e851be7817131bb100b9467b4eac12ec94166bba" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>sk4CfsPMmGPzje444JHP4gAk3za2dwGkND/JN+1q6Hs=</DigestValue></Reference></SignedInfo><SignatureValue>pxAebKv5mUj82Upv6Y/XlUGCsDqdR4C5S/Wp4VHYIdDgtGwvi25TuqjGm4I4fd9SuocsYKzrMg6W30bM1g2Kw6PEjIeaK3u+lGlyG7HOzfk2CBv86LJlPWdMqZp1G90AMJrUdxBgkaroyiRTdn9sEb/e18Gy0WVQXBfUC+2l0Fw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0Hc00NUhUJ0BchR29vnbA+fb99lsiulWsoXJmBF36VJs0gnbAYNoNlkTXUovq282A0iZQ2FPONoNmkQ2U65vARDEfDbWqRUE2EUkphlVJ3LjNcVtVpCstwVmy2wMKCd+afE5hvLSz0nKru9qldbaIrEZQEKezSifbjWcNsvt/Es=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7be86aed37c93f34a40177b636df2400e2cf91e038ee8df36398ccc37e024eb2" Description="" Url=""><as:assemblyIdentity name="Fiddler.exe" version="1.0.0.0" publicKeyToken="6575365397464895" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-J9H971R\emeroglu</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>y0W/AgeG9Nih3Pq7dLrzs4+3j4vLj2QgkQtZ+6AQ8ZI=</DigestValue></Reference></SignedInfo><SignatureValue>aC6NlDqN6ZxpYn4JVqxoAXOOYPxTctV6J/cKCt2Ps+pKP2eFv9HedrhKgUkaGokdwHmWV1E8VKIr1pmogazu1h7X/pgmfF8VafhkE6SxNxk4dk9k8mWX7q2VtOwUY+JFxtEVbZcSr3NdtWvjRhwaY57KcA/hwpE6eRcKIXp+KRw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0Hc00NUhUJ0BchR29vnbA+fb99lsiulWsoXJmBF36VJs0gnbAYNoNlkTXUovq282A0iZQ2FPONoNmkQ2U65vARDEfDbWqRUE2EUkphlVJ3LjNcVtVpCstwVmy2wMKCd+afE5hvLSz0nKru9qldbaIrEZQEKezSifbjWcNsvt/Es=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQShuN7aFHt4dAgDRT9oxuTjANBgkqhkiG9w0BAQsFADA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtAEoAOQBIADkANwAxAFIAXABlAG0AZQByAG8AZwBsAHUwHhcNMTYxMTEwMDgxNzI4WhcNMTcxMTEwMTQxNzI4WjA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtAEoAOQBIADkANwAxAFIAXABlAG0AZQByAG8AZwBsAHUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANB3NNDVIVCdAXIUdvb52wPn2/fZbIrpVrKFyZgRd+lSbNIJ2wGDaDZZE11KL6tvNgNImUNhTzjaDZpENlOubwEQxHw21qkVBNhFJKYZVSdy4zXFbVaQrLcFZstsDCgnfmnxOYby0s9Jyq7vapXW2iKxGUBCns0on241nDbL7fxLAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAU/sAMjGx0xIM74AGXtk7ACxdCldsjtzVf/CL3jsTnQC8gp0cB/NVxlKf2hHGL9A8Vh70jhcgy0fviFMJfPCJNqbMscLEiUdCkwRRqdjrQ2pg10/h7K2d9MmUFLkTAyFS20vjDn3h6yV+ZRWTdEXyJ16ZiicH+zmTO3MJ2ofcOp8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
